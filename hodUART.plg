@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: hodUART - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/hodUART.res" /d "NDEBUG" /d "_AFXDLL" "F:\HODUART\hodUART.rc"" 
+Creating temporary file "C:\DOCUME~1\gngyf04\LOCALS~1\Temp\RSP135.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/hodUART.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\HODUART\hodUART.cpp"
+"F:\HODUART\hodUARTDlg.cpp"
+"F:\HODUART\Serial.cpp"
+"F:\HODUART\TTLog.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\gngyf04\LOCALS~1\Temp\RSP135.tmp" 
+Creating temporary file "C:\DOCUME~1\gngyf04\LOCALS~1\Temp\RSP136.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/hodUART.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\HODUART\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\gngyf04\LOCALS~1\Temp\RSP136.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/hodUART.pdb" /machine:I386 /out:"Release/hodUART.exe"  .\Release\hodUART.obj .\Release\hodUARTDlg.obj .\Release\Serial.obj .\Release\StdAfx.obj .\Release\TTLog.obj .\Release\hodUART.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+hodUART.cpp
+hodUARTDlg.cpp
+Serial.cpp
+TTLog.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+hodUART.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
